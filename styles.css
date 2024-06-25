@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.sidebar {
+  display: none;
+  width: 300px;
+  height: 500px;
+  background: palevioletred;
+}
+
+.topbar input {
+  padding: 10px;
+}
+
+.sidebar input {
+  padding: 10px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  background-color: bisque;
+}
+
+.gridCell {
+  /* border: 1px solid red; */
+}
+
+.gridCell:hover {
+  background-color: rgb(1, 1, 27);
+}
