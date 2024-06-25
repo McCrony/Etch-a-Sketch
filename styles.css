@@ -38,7 +38,8 @@ body {
   align-items: center;
   gap: 10px;
 }
-.topbar input {
+
+input[type='number'], input[type="button"], input[type="submit"] {
   padding: 10px;
   border: none;
   background: rgb(0, 0, 114);
@@ -50,19 +51,27 @@ input[type = number]{
   background: white;
   color: rgb(0, 0, 114);
   border: 2px solid rgb(0, 0, 114);
+  width: 80px;
 }
 
 
-.rainbow, .solidColor{
+.rainbow, #solidcolor{
   width: 30px;
   height: 30px;
-  border: 1px solid red;
   margin-left: 10px;
   border-radius: 50%;
 }
 
-.solidColor{
-  background-color: black;
+input[type="color"]{
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+}
+
+
+.rainbow{
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
   border: none;
 }
 .grid {
