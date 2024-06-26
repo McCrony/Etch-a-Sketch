@@ -10,25 +10,33 @@
     </head>
 
     <body>
-        <h2>Etch-A-Sketch</h2>
+        <header>
+            <img src="/img/etch.gif" alt="etch-a-sketch image">
+            <h2>Etch-A-Sketch</h2>
+        </header>
         <div class="main">
 
-            <div class="sidebar">
+            <!-- <div class="sidebar">
                 <label for="gridSize"></label>
                 <input type="number" name="gridSize" id="inputGrid" min="16" max="100">
                 <input type="submit" value="Create New Grid">
-            </div>
+            </div> -->
 
             <div class="topbar">
-                <label for="gridSize"></label>
-                <input type="number" name="gridSize" placeholder="Enter size" id="inputGrid" min="16" max="100">
-                <input type="submit" value="Create New Grid">
-                <input type="button" value="Clear">
-
-                <input type="color" name="solidcolor" id="solidcolor">
+                <label for="gridSize">Enter Grid size <br> <span>Maximum: 100</span> </label>
+                <input type="number" name="gridSize" id="userInput" value="16" min="1" max="100">
+                <button class="submitBtn"> Generate Grid</button>
+                <!-- <input type="submit" value="Create New Grid" class="submitBtn"> -->
+                <button class="submitBtn reset"> Reset Grid</button>
+                <div class="pickColour">
+                    <label for="solidcolor"> Pick Colour </label> <br>
+                    <input type="color" name="solidcolor" id="solidcolor">
+                </div>
                 <div class="rainbow"></div>
             </div>
-
+            <div class="errorMsg">
+                <p>Attention! Mininum : 1 | Maximum : 100</p>
+            </div>
             <div class="grid">
 
             </div>
