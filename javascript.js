@@ -61,7 +61,7 @@ function removeFill () {
 function createDefaultGrid(gridSize) {
   const container = document.querySelector('.grid');
   
-  const squareSize = `${550 / gridSize}px`; 
+  const squareSize = `${500 / gridSize}px`; 
   
   for (let i = 0; i < gridSize * gridSize; i++) {
     const square = document.createElement('div');
