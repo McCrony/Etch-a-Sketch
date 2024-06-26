@@ -23,15 +23,24 @@
             </div> -->
 
             <div class="topbar">
-                <label for="gridSize">Enter Grid size <br> <span>Maximum: 100</span> </label>
+
+                <label for="userInput">Enter Grid size <br> <span>Maximum: 100</span> </label>
                 <input type="number" name="gridSize" id="userInput" value="16" min="1" max="100">
+
                 <button class="submitBtn"> Generate Grid</button>
-                <!-- <input type="submit" value="Create New Grid" class="submitBtn"> -->
+             
                 <button class="submitBtn reset"> Reset Grid</button>
+
                 <div class="pickColour">
                     <label for="solidcolor"> Pick Colour </label> <br>
-                    <input type="color" name="solidcolor" id="solidcolor">
+                    <input type="color" name="solidcolor" id="solidColor" value="#09697C">
                 </div>
+
+                <div class="eraser">
+                    <label for="er"> Pick Colour </label> <br>
+                    <input type="checkbox" name="" id="">
+                </div>
+                
                 <div class="rainbow"></div>
             </div>
             <div class="errorMsg">
