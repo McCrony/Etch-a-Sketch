@@ -94,28 +94,13 @@ span{
 }
 
 
-.pickColour{
+.pickColour, .rainbow{
   text-align: center;
 }
 
-.rainbow, #solidColor{
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
-  border-radius: 50%;
-}
-
 input[type="color"]{
-  width: 50px;
-  border-radius: 5px;
   border: none;
   background: transparent;
-}
-
-
-.rainbow{
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-  border: none;
 }
 
 .errorMsg{
@@ -130,9 +115,4 @@ input[type="color"]{
   width: 500px;
   height: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.cellFill{
-  background-color: blue;
 }
