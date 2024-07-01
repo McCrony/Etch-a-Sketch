@@ -7,6 +7,7 @@ const createBtn = document.querySelector('.submitBtn');
 const errorMsg = document.querySelector('.errorMsg');
 const resetBtn = document.querySelector('.reset');
 const pickColour = document.querySelector('input[type=color');
+const eraserBtn = document.querySelector('.eraserBtn');
 
   
   // Generate new grid
@@ -51,11 +52,6 @@ function removeFill () {
     )
   })
 }
-
-
-
-
-
 
 // Function to create default 16x16 grid
 function createDefaultGrid(gridSize) {
