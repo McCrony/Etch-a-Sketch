@@ -12,9 +12,9 @@ It is a browser version of something between a sketchpad and an Etch-A-Sketch.
    
 ## How to use
 Auto generate 16x16 grid.
-Pick a colour from the pick colour button or use the default colour #09697C
-Move the mouse pointer on the grid to 'etch-a-sketch' with the selected colour
-Change the size of the grid (Eg. 20x20) using the number input with
+Pick a colour from the pick colour button or use the default colour #09697C.
+Move the mouse pointer on the grid to 'etch-a-sketch' with the selected colour.
+Change the size of the grid (Eg. 20x20) using the number input.
   - Minimum grid size is 1 (1x1 grid)
   - Maximum grid size is 100 (100x100 grid)
   - Default grid size is 16 (16x16 grid)
