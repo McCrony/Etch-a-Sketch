@@ -27,3 +27,5 @@ Clear or Reset the grid using the Reset Button.
 
 Use the Random RGB checker to fill the grid with randomly generated colours.
 
+Live site: https://mccrony.github.io/Etch-a-Sketch/
+
